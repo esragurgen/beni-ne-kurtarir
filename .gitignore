@@ -1,0 +1,25 @@
+# Kişisel notlar ve Claude Code dosyaları
+CLAUDE.md
+docs/
+
+# Gizli bilgiler
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+
+# Editör / sistem
+.vscode/
+.DS_Store
+Thumbs.db
