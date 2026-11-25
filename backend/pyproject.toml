@@ -4,6 +4,7 @@ version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi[standard]>=0.165.0",
+    "pydantic-settings>=2.16.3",
 ]
 
 [dependency-groups]
@@ -24,6 +25,7 @@ select = [
 
 [tool.mypy]
 strict = true
+plugins = ["pydantic.mypy"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
